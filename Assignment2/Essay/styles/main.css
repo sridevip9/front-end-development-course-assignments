@@ -1,4 +1,16 @@
-body{
+body{ 
+    
     margin:20px auto;
     width:960px;
+
 }
+h1 {
+   color: #DC143C;
+   font-family :"Courier New",Courier, monospace ;
+}
+span{
+    text-decoration : underline;
+    font-weight: bold;
+}
+
+   
