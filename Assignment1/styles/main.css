@@ -22,5 +22,6 @@ body{
     width:960px;
 }
 table tr:nth-child(odd){
-background-color: black;
+background-color:lightcyan;
+
 }
