@@ -1,1 +1,30 @@
-
+body{
+    width:960px;
+    margin-left: center;
+    margin-right: center;
+    margin-top:20px ;
+    margin-bottom: 20px;
+}
+h1{
+    color:#777777;
+    border-bottom: 1px sold #777777;
+}
+h2{
+    color:#aa0000;
+    border-bottom: 1px dotted #aa0000;
+}
+hr{
+    clear: both;
+}
+.navigation{
+    background-color: #000000;
+    color:#ffffff;
+    display:block;
+    float:right;
+    margin:20px 20px 20px 20px;
+    padding:20px 20px 20px 20px;
+    
+}
+.navigation a{
+    text-decoration: none;
+}
