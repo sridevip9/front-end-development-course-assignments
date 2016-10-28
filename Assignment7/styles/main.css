@@ -1,0 +1,91 @@
+* { box-sizing: border-box }
+.main{
+    width:960px;
+    background-color: white;
+    margin: 20px auto;
+    overflow: hidden;
+}
+body{
+ background-color:lightgray;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #00aaaa;
+    color:white;
+    width:960px;
+    
+    padding:20px;
+    text-shadow: 1px 5px 2px #0D0D0C;
+    font-size: 1em;
+    overflow: hidden;
+}
+header h2{
+    color:white;
+}
+aside{
+    float:left;
+    width:25%;
+    padding: 20px;
+}
+aside h3{
+    color:black;
+}
+nav a{
+ color:#aa0000;
+ text-decoration: none;
+ list-style-type:square
+}
+nav li{
+    list-style-type:square;
+}
+strong{
+    font-weight:bold;
+}  
+code{
+    font-size: 0.5em;
+}
+.article  p a{
+ text-decoration: none;
+ color: #aa0000;
+}
+em{
+    color:limegreen;
+}
+.article h1,h2,h3{
+    color:#aa0000;
+}
+.article{
+    width: 75%;
+    padding-right: 20px;
+    text-align:left;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.image li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+    text-align: center;
+}
+
+
+
+footer{
+    width:75%;
+    height:10%;
+    clear: both;
+    float:right;  
+}
+footer li {
+    text-decoration: none;
+    display:inline-block;
+    text-align:right;
+    margin: 0 20px 0 0;
+    padding: 0;
+}
+footer li a {
+    color:#aa0000;
+    text-decoration: none;
+}
