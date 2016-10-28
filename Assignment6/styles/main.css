@@ -37,6 +37,14 @@ body{
 .navbar h3{
     color:black;
 }
+.image li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px 0 0;
+    
+    text-align: center;
+}
+
 
 .navbar  li a{
     color:#aa0000;
