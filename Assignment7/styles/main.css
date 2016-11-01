@@ -13,14 +13,17 @@ header{
     background-color: #00aaaa;
     color:white;
     width:960px;
-    
+    height:145px;
     padding:20px;
-    text-shadow: 1px 5px 2px #0D0D0C;
+    text-shadow: 2px 6px 3px #0D0D0C;
     font-size: 1em;
     overflow: hidden;
+    
 }
 header h2{
     color:white;
+    font-style:oblique;
+    
 }
 aside{
     float:left;
@@ -35,6 +38,13 @@ nav a{
  text-decoration: none;
  list-style-type:square
 }
+nav a:hover{
+    color:#44578e;
+    font-size:100%;
+    font-weight:bold;
+    text-transform:uppercase;
+    
+}
 nav li{
     list-style-type:square;
 }
@@ -42,11 +52,17 @@ strong{
     font-weight:bold;
 }  
 code{
-    font-size: 0.5em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color:#f4429b;
 }
 .article  p a{
  text-decoration: none;
  color: #aa0000;
+}
+.article p a:hover{
+    color:#4286f4;
+    overflow: hidden;
 }
 em{
     color:limegreen;
@@ -56,27 +72,39 @@ em{
 }
 .article{
     width: 75%;
+    padding-left: 10px;
     padding-right: 20px;
     text-align:left;
     float: right;
-    margin-bottom: 10px;
+    margin-bottom:0;
+    
 }
 
 .image li{
     text-decoration: none;
     display: inline-block;
-    margin: 0 20px 0 0;
-    
+    margin: 10px 15px 10px 0px;
+    border:5px,solid,black;
     text-align: center;
+    padding:0;
 }
+ img{
+     border:1px outset black;
+     border-radius: 1px 2px 2px 3px;
+ }
 
-
+h6{
+    margin:8px;
+    padding:5px;
+}
 
 footer{
     width:75%;
     height:10%;
     clear: both;
-    float:right;  
+    float:right;
+    margin:0;
+    
 }
 footer li {
     text-decoration: none;
@@ -88,4 +116,12 @@ footer li {
 footer li a {
     color:#aa0000;
     text-decoration: none;
+    margin:10px;
+    padding:0;
+}
+footer li a:hover{
+    color:#4286f4;
+    font-weight: bold;
+    font-size: 100%;
+    text-transform: lowercase;
 }
