@@ -1,3 +1,156 @@
 * {
     box-sizing:border-box;
 }
+.main{
+    width:960px;
+    overflow:hidden;
+    background-color:white;
+    margin:10px auto;
+}
+body{
+ width:960px;
+ margin:10px auto;
+ background-color:white;
+ font-family: 'Times New Roman', Times, serif;
+}
+section{
+    clear:both;
+    margin:10px auto;
+}
+header{
+    float:left;
+    margin-right:50px;
+    padding-right:50px;
+}
+  nav ul{
+    list-style-type: none;
+    background-color: darkred;
+    width:100%;
+    overflow: hidden;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 30px;
+    
+}
+nav li{
+    display:inline-block;
+     margin: 10px 15px;
+    padding:0;
+}
+nav li a{
+    text-decoration: none;
+    font-size:1.4em;
+    color:white;
+}
+nav a:hover{
+    text-decoration:underline;
+    text-transform: uppercase;
+}
+.section1 .image{
+    float: left;
+    padding: 10px;
+    width: 66.66666%;
+}
+
+ .section1 .image img{  
+  max-width: 100%;
+    height: auto;
+ }
+  .section1 .image1{
+    width:33.333%;  
+    float: right;
+    padding: 5px;   
+ }
+ div{
+     display:bolck;
+ }
+ h5{
+     text-align: center;
+     font-size: 1.4em;
+     color:darkred;
+     font-weight: bold;
+ }
+  header{
+      font-size:20px;
+      text-align: center;
+      color:darkred;
+      font-weight: bold;
+      margin:0;
+  }
+  h5:hover{
+      text-decoration: underline;
+  }
+  h4{
+      font-size:1.3em;
+      font-weight: bold;
+  }
+  hr{
+      border:1px solid darkred;
+      overflow: hidden;
+  }
+ .newimg{
+  list-style-type: none;
+ }
+ .newimg li{
+     display:inline-block;
+     padding: 0 10px 0 20px;
+ }
+  .section2 .display article{
+     width:66.67%;
+     border-right: 1px solid #a00;
+     border-bottom: 1px solid darkred;
+     float:left;
+     margin-top: 10px;
+     padding-right:20px;
+ }
+  .display article img{
+    float: left;
+    max-width: 50%;
+    padding: 10px;
+        
+ } 
+   .display h2{
+    display: block;
+    font-size: 1.5em;   
+    font-weight: bold;  
+ }
+ h2 a{
+     text-decoration: none;
+     color:darkred;
+ }
+ p{
+     display:block;
+ }
+   sidebar{
+     width:33.3333%;
+     float:right;
+     clear:both;   
+ }
+ .section2 sidebar section h4{
+     text-align: center;
+ }
+  .section2 .sponsor .sponsors1 img{
+     width: 50%;
+    float: left;
+    padding: 10px;
+}
+ 
+ 
+ footer{
+     clear:both;
+     padding:20px 0;
+ }
+footer h3{
+    float:left;
+    margin:0
+ }
+    footer nav{
+    float:right;   
+}
+   
+footer nav a{
+    text-decoration: none;
+    color:darkred;
+    padding:0 10px;
+    
+}
