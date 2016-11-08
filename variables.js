@@ -1,2 +1,3 @@
-var someString = 'this is a string';
-console.log(someString);
+var bo = 'true'; 
+var a = (bo === true);
+console.log(a);
