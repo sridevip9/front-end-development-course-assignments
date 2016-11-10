@@ -1,6 +1,7 @@
 var messages=[];
 function update(){
       var firstName = getValue('firstName');
+      var fnam= document.getElementById('firstName').value;
       var lastName =getValue("lastName");
       var emailAddress = getValue('emailAddress');
         
@@ -39,7 +40,7 @@ var user ={
 document.getElementById("firstName").innerHTML=user.firstname;
 document.getElementById("lastName").innerHTML=user.lastname;
 document.getElementById("emailAddress").innerHTML=user.email;
-console.log(user.fullname());
+console.log(user.fullname);
 // /////////
 var btn = document.getElementById('btnUpdate');
 btn.addEventListener('click', update);
