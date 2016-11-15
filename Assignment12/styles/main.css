@@ -5,4 +5,36 @@
 body {
     width:500px;
     margin:20px auto;
+    font-size:20px;
+}
+.control-panel{
+    text-align: center;
+    font-size: 1.2em;
+}
+ .input1{
+    padding:10px;
+    
+}
+.input1 input{
+    display:block;
+    width:100%;
+    font-size: 15px;
+    padding:15px;
+}
+.input2{
+    font-size:1.4em;
+    text-align: center;
+    font-weight:bold;
+}
+.input2 button{
+    font-size:20px;
+}
+.error{
+    color:darkred;
+    border:1px,solid,darkred;
+
+}
+.invalid{
+    color:blueviolet;
+    border:1px,solid, blueviolet;
 }
