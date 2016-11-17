@@ -61,7 +61,7 @@ function submit(){
      function reset(){
     for(var i = 0;i < inputs.length;i++){
       var elm = getE(inputs[i]);
-      elm.value = " ";
+      elm.value = "";
       elm.classList.remove(Error_class);
     }
 
