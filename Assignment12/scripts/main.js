@@ -63,17 +63,18 @@ var btn = getElm('btnsubmit');
 btn.addEventListener("click", submit);
 
 var btn2 = getElm('btnreset');
-btn.addEventListener("click", reset);
+btn2.addEventListener("click", reset);
 
-var inputs=['firstName','lastName','emailAddress','password','confirmPassword'];
-var Error_class ="invalid";
+var inputs = ['firstName','lastName','emailAddress','password','confirmPassword'];
+var Error_class = "invalid";
 function submit(){
     var elm;
     var errorList =[];
     for(var i=0;i<inputs.length;i++){
         elm =getElm(inputs[i]);
-        if(elm.value === " "){
-        errorList.push(elm.placeholder+" Is required");
+        console.log(elm);
+        if(elm.value === ""){
+        errorList.push(elm.placeholder + " Is required ");
         elm.classList.add(Error_class);
         }else{
          elm.classList.remove(Error_class);
@@ -92,23 +93,29 @@ function submit(){
 
    var html;
    if(errorList.length > 0){
+       console.log("errorList > 0")
        html = "<ul class='errors'><li>"+ errorList.join("</li><li>")+"</li></ul>";
-   }else{
+       //html = 'hello world';
+}else{
        html = "<h1> Thank you for submitting form </h1>";
        reset();
    }
-
+    console.log(html);
+    console.log(getElm('messages'))
        getElm('messages').innerHTML = html;
+    console.log(getElm('messages').innerHTML)
+       
 
 }    
 
    function reset(){
+       console.log('reset')
        for (var i=0;i<inputs.length;i++){
            var elm = getElm(inputs[i]);
-           elm.value = " ";
+           elm.value = "";
            elm.classList.remove(Error_class);
        }
-       getElm('messages').innerHTML = " ";
+       getElm('messages').innerHTML = "";
    }
 
 
