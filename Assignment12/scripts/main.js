@@ -72,7 +72,7 @@ function submit(){
     var errorList =[];
     for(var i=0;i<inputs.length;i++){
         elm =getElm(inputs[i]);
-        console.log(elm);
+        //console.log(elm);
         if(elm.value === ""){
         errorList.push(elm.placeholder + " Is required ");
         elm.classList.add(Error_class);
@@ -100,16 +100,16 @@ function submit(){
        html = "<h1> Thank you for submitting form </h1>";
        reset();
    }
-    console.log(html);
-    console.log(getElm('messages'))
+    //console.log(html);
+   // console.log(getElm('messages'))
        getElm('messages').innerHTML = html;
-    console.log(getElm('messages').innerHTML)
+   // console.log(getElm('messages').innerHTML)
        
 
 }    
 
    function reset(){
-       console.log('reset')
+       //console.log('reset')
        for (var i=0;i<inputs.length;i++){
            var elm = getElm(inputs[i]);
            elm.value = "";
