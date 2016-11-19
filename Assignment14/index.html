@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+    <head>
+        <title>Assignment 12</title>
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+
+    <body> 
+       
+       <section id="messages">
+
+        </section>
+        
+        <form class="form-elements" method="POST">
+            <div class="side">
+            <div class='input1'>
+              <label for="firstname"> First Name</label>
+              <input type="text" name='firstname' id="firstName" placeholder="First Name" required maxlength="20"/>
+            </div>
+            <div class='input1'>
+              <label for="lastname"> Last Name</label>
+              <input type="text" name='lastname' id="lastName" placeholder="Last Name" required maxlength="20"/>
+            </div>
+            <div class='input1'>
+              <label for="emailAdress"> Email Address</label>
+              <input type="email" name='emailAddress' id="emailAddress" placeholder="Email Address" required />
+            </div>
+            <div class='input1'>
+              <label for="password"> Password</label>
+              <input type="password" name='password' id="password" placeholder="Password" required/>
+            </div>
+            <div class='input1'>
+              <label for="confirmpassword"> Confirm Password</label>
+              <input type="password" name='Password' id="confirmPassword" placeholder="Confirm Password" required/>
+            </div> 
+            </div>
+            <div class="side">
+            <div class='input1'>
+             <label for="Timezone"> Time Zone</label> 
+             <select id='Timezone' required/>
+                <option></option>
+                <option>Eastern</option>
+                <option>Central</option>
+                <option>Mountain</option>
+                <option>Pacific</option>
+             </select> 
+            </div>
+            <div class='input1'>
+              <label for="About"> Tell us about yourself</label>
+              <textarea name id="About" placeholder="About" required ></textarea>
+            </div>
+            <div class='input1'>
+              <label for="website"> Website</label>
+              <input type="url" name='' id="website" placeholder="website" required />
+            </div>
+            <div class='input1'>
+             <label for="Age"> Age </label>
+             <input type="number" name='' id="Age" placeholder="Age" min="10" max="100"  required />
+            </div>
+            <div class='input1'>
+             <label for="search"> Search Name</label>
+             <input type="search" name='' id="search" placeholder="Search" required />
+            </div>
+            </div>
+            <div class="check-group">
+                <label for="terms">
+                <input type="checkbox" name="terms" id="terms">
+                 Accept terms and Conditions
+                </label>
+            </div>
+                
+       <section class="control">
+           <button type="submit" id="btnsubmit">Submit</button>
+           <button type="reset" id="btnreset">Reset</button>
+       </section>
+       </form> 
+     <!-- <script src="scripts/main.js"></script> -->
+    </body>
+
+</html>

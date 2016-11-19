@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width:960px;
+    margin:20px auto;
+    font-size:20px;
+}
+.side{
+    width:49%;
+    float:left;
+}
+
+.input1{
+    padding:20px;
+    
+}
+.input1 input,.input1 textarea,.input1 select{
+    display:block;
+    width:100%;
+    font-size: 20px;
+    padding:10px;
+}
+.check-group{
+    padding:20px;
+}
+.control{
+    font-size:1.4em;
+    text-align: center;
+    font-weight:bold;
+}
+.control button{
+    font-size:20px;
+}
+.errors{
+    color:#ff0000;
+}
+.invalid{
+    border:1px solid #ff0000;
+    background:darkred; 
+}
