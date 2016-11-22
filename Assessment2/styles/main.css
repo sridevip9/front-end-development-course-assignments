@@ -1,3 +1,149 @@
 * {
     box-sizing: border-box;
 }
+body{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header hgroup{
+    background-color: #337b7f;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    padding:2px 2px 2px 20px;
+}
+hgroup h1{
+    margin-bottom: 5px;
+}
+
+ hgroup h2{
+    padding-top:0;
+    margin-top: 0;
+    font-style: italic;   
+}
+
+
+navbar ul{
+    width:70%;
+    float:left;
+    margin-top:0px;
+    margin-bottom: 0;
+    padding-right: 10px;
+    padding-top:3px;
+    background-color: #185950; 
+    overflow:hidden; 
+}
+ navbar li{
+    display:inline-block;
+    overflow: hidden;
+    padding: 0 20px;
+    color:white;
+}
+ navbar a{
+    text-decoration:none;
+    color:white;
+}
+ navbar a:hover{
+    text-decoration:underline;
+    text-transform:uppercase;
+    display:block;
+}
+navbar input button{
+    width:30%;
+    float: right;
+}
+
+navbar input{
+    background-color: #185950;
+    overflow: hidden;
+}
+
+
+.article {
+    width:960px;
+    background-color: white;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid #185950;
+}
+section{
+    margin-bottom: 20px;
+}
+section h1{
+    text-align:center;
+}
+section img{
+    float:left;  
+}
+section p{
+        font-size:1.4em;
+    }
+
+form{
+    padding-right:40px;
+}
+
+.input1{ 
+    padding:10px;
+    margin:10px;
+   
+}
+.input1 label{
+    width:30%;
+    float:left;
+    padding-right: 20px;
+}
+.input1 input,.input1 textarea,.input1 select{
+    display: inline-block;
+    width:40%;
+    font-size: 20px;
+    border:1px solid darkred;
+    margin: 5px 10px 10px 20px;
+    padding-right:30px;
+}
+.check-group{
+    padding:20px;
+}
+.control{
+    font-size:1.4em;
+    text-align: center;
+    font-weight:bold;
+}
+.btn{
+   text-align:center; 
+}
+.btn button{
+    margin-bottom: 20px;
+    font-size:20px;
+}
+.errors{
+    color:#ff0000;
+}
+.invalid{
+    border:1px solid #ff0000;
+    background:darkred; 
+}
+footer ul{
+    background-color: #185950;
+    text-decoration: none;
+    overflow: hidden;
+    margin-top:0;
+}
+footer li{
+display:inline-block;
+overflow: hidden;
+}
+footer  a{
+    text-decoration: none;
+    display:inline-block;
+    padding:10px 20px;
+    color:white;
+}
+footer a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
