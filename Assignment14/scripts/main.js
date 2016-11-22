@@ -28,7 +28,6 @@ function submit(){
     }
 
     var email = getE('emailAddress');
-
     if(email.value.indexOf('@') == -1){
        errorList.push('Enter a valid email');
     }
@@ -55,9 +54,9 @@ function submit(){
       reset();
     }
     getE('messages').innerHTML = html;
-    
+
 }
-     
+
      function reset(){
     for(var i = 0;i < inputs.length;i++){
       var elm = getE(inputs[i]);
