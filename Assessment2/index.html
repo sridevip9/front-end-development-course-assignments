@@ -7,10 +7,81 @@
     </head>
 
     <body>
+        <header>
+            <hgroup>
+               <h1>Bioplex</h1>
+               <h2>Fusce a congue nunc. Proin iaculis accumsan mi, eget sodales orci.</h2>
+            </hgroup>
+        </header> 
+        
+        <navbar>
+           <ul> 
+             <li> <a href="#">HOME</a> </li>
+             <li> <a href="#">RECIPES</a> </li>
+             <li> <a href="#">PRODUCTS</a> </li>
+             <li> <a href="#">FAQ</a> </li>
+             <li> <a href="#">CONTACT</a> </li>
+           </ul> 
+           
+             <input type="search">  <button>search</button>
+          
+        </navbar>
+        
+       
+        <div class="article">
+           <section>
+                <h1>Blender Sweepstakes</h1>
+                <img src="images/blender.jpg">
+                <p>You are about to enter to win a brand new Bioplex SuperMax 1900. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+           <section>
+          <section id="messages">
+          </section>
         <form>
+            <div class='input1'>
+              <label for="firstname"> First Name</label>
+              <input type="text" name='firstname' id="firstName" placeholder="First Name" required maxlength="20"/>
+            </div>
+            <div class='input1'>
+              <label for="lastname"> Last Name</label>
+              <input type="text" name='lastname' id="lastName" placeholder="Last Name" required maxlength="20"/>
+            </div>
+            <div class='input1'>
+              <label for="emailAdress"> Email Address</label>
+              <input type="email" name='emailAddress' id="emailAddress" placeholder="Email Address" required />
+            </div>
+            <div class='input1'>
+              <label for="hear"> How did you find us?</label>
+              <select id='hear' required/>
+                <option></option>
+                <option>Word Of Mouth</option>
+                <option>Facebook</option>
+            </select>
+            </div>
+             <div class='input1'>
+              <label for="About"> Why do you need this blender?</label>
+              <textarea name="" id="About" placeholder="About" required ></textarea>
+            </div>
+            <div class="check-group">
+                <label for="terms">
+                <input type="checkbox" name="terms" id="terms">
+                 By checking this box you accept our terms and conditions.
+                </label>
+            </div>
+            <div class="btn">
             <button id="btnSubmit" type="button">Submit</button>
-            <button type="reset">Reset</button>
+            <button id= "btnreset" type="reset">Reset</button>
+            </div>
+            </div>
         </form>
+        <footer>
+            <ul> 
+             <li> <a href="#">HOME</a> </li>
+             <li> <a href="#">RECIPES</a> </li>
+             <li> <a href="#">PRODUCTS</a> </li>
+             <li> <a href="#">FAQ</a> </li>
+             <li> <a href="#">CONTACT</a> </li>
+           </ul> 
+        </footer>    
         <script src="scripts/main.js"></script>
     </body>
 
