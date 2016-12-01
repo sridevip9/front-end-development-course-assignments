@@ -9,8 +9,8 @@ function update(){
 }
 //part-2
 $('#btnTwo').on('click', function(){
-    $('.update-html').html('New HTML')
-    alert('Hello World');
+    $('.update-html').html('Hello World')
+    //alert('Hello World');
 });
 //part-3
 $('#btnThree').on('click', function(){
