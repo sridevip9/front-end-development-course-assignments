@@ -7,7 +7,7 @@ body {
     margin:20px auto;
     font-size:20px;
 }
-.errors{
+.error{
     color:#ff0000;
     display:none;
 }
@@ -35,7 +35,7 @@ body {
     font-size:20px;
 }
 
-.successmsg{
+#successmsg{                    /* successmsg is a id selector*/
     display:none;
 }
 .invalid::-webkit-input-placeholder { /* Chrome/Opera/Safari */
