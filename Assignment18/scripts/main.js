@@ -127,8 +127,9 @@ function validateAllInputs() {
         $('#messages').html('Form is Invalid');
     } else {
         $('.form-elements').fadeOut('slow', function () {
-            $('#successmsg').fadeIn();//sucessmsg is a id
+            $('#successmsg').show();//sucessmsg is a id
         });
     }
 
 }
+
