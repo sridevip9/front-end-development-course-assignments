@@ -2,12 +2,104 @@
 <html>
 
     <head>
-        <title>Assignment 18</title>
+        <title>Assignment 20</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         <link rel="stylesheet" href="styles/main.css">
     </head>
 
     <body>
-        <div class="fl">
+        <header>
+
+            <img src='http://placehold.it/350x100' alt='imgage'/> </img>
+        
+        </header>  
+
+        <navbar>
+
+            <ul> 
+             <li> <a href="#">Home</a> </li>
+             <li> <a href="#">Q&A</a> </li>
+             <li> <a href="https://twitter.com/HalluxInc">Twitter</a> </li>
+             <li> <a href="https://www.facebook.com/HalluxInc/">Facebook</a> </li>
+             
+           </ul>
+
+        </navbar>
+        <article>
+            <div class="question">
+                <h1> Question Title </h1>
+                 <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            </div>
+          <div class="user">
+              <h3> Asked By: </h3>
+              <img src='images/male3-512.png'alt='image'style="width:128px;height:128px;"/> </img>
+              <h5> John Doe </h5>
+          </div>
+
+        </article>
+
+        <section>
+            <div class="answer" >
+             
+            <h2> Answers </h2>
+                 
+            <div class="answer1" >
+               <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+               <img src='images/male3-512.png'alt='image'style="width:100px;height:100px;"/> </img>
+               <div class="clear">
+               </div>
+               <h5> John Doe </h5>
+            </div>
+            <div class="answer2" >
+               <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. </p>
+               <img src='images/female1-512.png'alt='image'style="width:100px;height:100px;"/> </img>
+               <div class="clear">
+               </div>
+               <h5> Jimmy Doe </h5>
+            </div>
+            <div class="answer3" >
+               <p> Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</p>
+               <img src='images/man-159847_1280.png'alt='image'style="width:100px;height:100px;"/> </img>
+               <div class="clear">
+               </div>
+               <h5> Joseph Doe </h5>
+            </div>
+            
+            </div>
+            <div class="log">
+               <h3> Activity Log </h3> 
+                <ul id="prepend">
+                    <li> John Joe responded</li>
+                     <li> Jimmy Joe responded</li>
+                      <li> Joseph Joe responded</li>
+                </ul>
+             </div>   
+        </section>
+        <section id="messages">
+        </section>
+        <section id="successmsg">
+            <h1>Thank you for your answer</h1>
+        </section>
+        <form class="form-elements" >
+            <div class="input">
+            <h3> Submit Your answer </h3>
+            <div class='input1'>
+              <label for=" yourname"> Your Name</label>
+              <input type="text" name='yourname' id="yourname" placeholder="Your Name" required maxlength="30"/>
+              <span class="error">Your Name is required</span>
+            </div>
+            <div class='input1'>
+              <label for="About"> Your Answer</label>
+              <textarea name="" id="youranswer" placeholder="Your Answer" required maxlength="100"></textarea>
+              <span class="error">Your Answer is required</span>
+            </div>
+            <section class="btn">
+            <button id="btnSubmit" type="button">Submit</button>
+            <button id= "btnReset" type="reset">Reset</button>
+            </section>
+            </div>
+        </form>
+     <!--   <div class="fl">
             <h2>Append</h2>
             <ul id="append">
             </ul>
@@ -16,7 +108,7 @@
             <h2>Prepend</h2>
             <ul id="prepend">
             </ul>
-        </div>
+        </div> -->
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
         <script src="scripts/main.js"></script>
     </body>

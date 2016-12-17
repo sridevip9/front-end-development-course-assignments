@@ -1,4 +1,174 @@
 * {
     box-sizing: border-box;
+    
 }
 
+ body{
+    width:960px;
+    margin-right:auto;
+    margin-left:auto;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #5a5a5a;
+}
+header img{
+    border: 1px solid #5a5a5a;
+    margin: 1px;
+}
+navbar ul{
+    background-color: #5a5a5a;
+    margin-top:0;
+    overflow: hidden;
+}
+navbar a{
+    text-decoration: none;
+    color:white;
+}
+navbar li{
+    display:inline-block;
+    overflow: hidden;
+    padding: 0 20px;
+    
+}
+navbar a:hover{
+    text-decoration:underline;
+    text-transform:uppercase;
+    color:#aa0000;
+    display:block;
+}
+article{
+    border: 1px solid #5a5a5a;
+    overflow: auto;
+    margin:1px;
+    clear:both;
+}
+.question{
+    width:70%;
+    float:left;   
+}
+.question h1,p{
+    text-align: left;
+    padding: 5px;
+
+}
+.question h1{
+    color:#aa0000;
+}
+.user{
+    width: 30%;
+    float:right;
+    border:1px solid #5a5a5a;
+    padding: 5px;
+    
+    
+}
+.user img{
+    float:left;
+}
+.user h3{
+    text-align: center;
+    color:#aa0000;
+    padding-right: 10px;
+}
+.user h5{
+    float:right;
+    padding: 30px; 
+    color:#620010;  
+}
+section{
+     
+     overflow: auto;
+     margin-top: 2px;
+     clear:both;
+}
+.answer{
+    width:70%;
+    float:left;
+}
+.answer h2{
+    text-align: center;
+    color:#aa0000;
+}
+.answer1, .answer2, .answer3{
+   border:1px solid #5a5a5a;
+   margin:5px;
+   padding: 5px;
+}
+.answer1,.answer2,.answer3  h5{
+    text-align:right;
+    color:#620010;
+    margin:5px;
+} 
+.answer1,.answer2,.answer3 img{
+ float:right;
+ 
+}
+
+.clear{
+    clear:both;
+}
+
+
+.log{
+    width:30%;
+    float: right;
+}
+.log h3{
+    text-align: center;
+    color:#aa0000;
+   
+}
+form {
+    border:1px solid #5a5a5a;
+    width: 60%;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+.input h3{
+     text-align: center;
+     color: #aa0000;
+}
+.input1{ 
+    padding:5px;
+    margin:5px;
+    font-size: 20px;
+    font-weight:bold;
+    color:#620010;
+    padding-left: 20px;  
+   
+}
+.input1 label{
+    width:30%;
+    float:left;
+    padding-right: 30px;
+}
+.input1 input{
+    display:block;
+    font-size: 20px;
+    border:1px solid #5a5a5a;
+    margin: 5px 10px 10px 20px;
+    padding-right:30px;
+}
+.input1 textarea{
+    font-size:50px;
+}
+.btn{
+   text-align:center; 
+}
+.btn button{
+    float: center;
+    margin-bottom: 20px;
+    font-size:20px;
+    padding-right: 10px;
+}
+.error{
+    color:#ff0000;
+}
+.invalid{
+    border:1px solid #ff0000;
+    background:darkred; 
+}
+#successmsg{
+    display:none;
+}
