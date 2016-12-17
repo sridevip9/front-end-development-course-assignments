@@ -69,6 +69,7 @@ navbar input{
     margin-left: auto;
     margin-right: auto; 
     border: 1px solid #185950;
+    clear:both;
 }
 section{
     margin-bottom: 20px;
