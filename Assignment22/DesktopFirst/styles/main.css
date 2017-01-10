@@ -52,8 +52,8 @@ nav li a {
 footer nav,
 header nav,
 section {
-    width: 960px;
-    margin: 0 auto
+  max-width:960px;
+    margin: 0 auto;
 }
 
 .image-gallery li {
@@ -63,8 +63,71 @@ section {
 }
 
 
+@media screen and (max-width: 480px) {
+    .image-gallery li{
+      width:50%;
+}
+ .image-gallery li img{
+     max-width: 100%;
+ }
+ nav ul{
+     padding: 0;
+ }
+nav li{
+    display:block;
+    padding-left: 10px;
+    border-bottom: 1px solid white;
+}
+nav li a{
+    display: block;
+}
+section>h1{
+    padding-left: 10px;
+}
+
+}
+
+
+@media screen and (max-width: 650px) {
+ .container li {
+     display: block;
+     
+    }
+
+.image-gallery li{
+    display: block;
+    width:33.3333%;
+}
 .image-gallery li:hover img {
     border: 2px solid #333;
     display: block;
     margin: 0 auto
+}
+footer li{
+    display: block;
+}
+
+}
+@media screen and (min-width: 960px) {
+ .container{
+     border-radius: 25px;
+     text-align: center;
+ }
+ 
+ .container li {
+     display:inline-block;
+    }
+.image-gallery li{
+    display:block;
+    width:25%;
+}
+footer{
+    border-radius: 25px;
+
+}
+footer li {
+    display:inline-block;
+    border-radius: 25px;
+}
+
 }
