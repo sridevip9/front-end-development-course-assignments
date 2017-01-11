@@ -8,12 +8,16 @@ ul {
 }
 
 body {
-    margin: 0
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav a {
     color: #fff;
     text-decoration: none
+}
+nav li i{
+    float:right;
 }
 
 ul {
@@ -50,7 +54,7 @@ section {
     border: 1px solid #a00;
 }
 
-.socialLinks a {
+.socialLinks i {
     color: #a00;
     text-decoration: none;
     display: inline-block;
