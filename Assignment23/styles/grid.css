@@ -4,3 +4,26 @@
 body {
     margin: 0
 }
+
+@media screen and (min-width:576px){
+    article{
+        width:50%;
+         float:left;
+    }
+}
+@media screen and  (min-width: 768px){
+   article{
+        width:33.333%;
+        
+    }
+}
+@media screen and (min-width:992px) {
+    article{
+        width:25%;
+    }
+}
+@media screen and (min-width:1200px) {
+    article{
+        width:16.667%;
+    }
+}
