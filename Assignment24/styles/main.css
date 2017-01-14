@@ -82,8 +82,6 @@ section .article-list {
     padding: 10px
 }
 
-
-
 .sponsors {
     margin-top: 10px;
 }
@@ -103,106 +101,89 @@ footer>h3 {
     margin: 0
 }
 
-
-
 footer>nav>a {
     padding: 0 10px;
-    display:block;
+    display: block;
 }
 
-@media screen and (min-width: 480px){
-    .main-header nav{
-       border-radius: 25px;
-        
-        
-    }
-    
-    .main-header nav a{
-        display:block;
-        
-    }
-    
-    .article-list article{
-        overflow: hidden;
-        clear:both;
-    }
-    
-    .article-list article img{
-        float:left;
-        width:50%;
-    }
-    
-}
-@media screen and (max-width: 480px){
-.sponsors > .sponsor-ads >img{
-      width:100%;
-    }
-}
-
-@media screen and (min-width: 620px){
-    
-    .main-header nav{
+@media screen and (min-width: 480px) {
+    .main-header nav {
         border-radius: 25px;
-        text-align: center;  
     }
-    
-    .main-header nav a{
-        display: inline-block;
-        
+    .main-header nav a {
+        display: block;
     }
-    .sponsors > .sponsor-ads >img{
-      width:50%;
-         
+    .article-list article {
+        overflow: hidden;
+        clear: both;
     }
-    footer {
-        background-color:#a00;
-        border-radius : 15px;
-        text-align: right;
+    .article-list article img {
+        float: left;
+        width: 50%;
+    }
+}
 
+@media screen and (max-width: 480px) {
+    .sponsors>.sponsor-ads>img {
+        width: 100%;
     }
-    footer h3{
-        float:left;
-        color:white;
-        padding: 0 5px;
-    }
-    footer nav a{
-        display: inline-block;
-        color:white; 
-        font-size: 20px;     
-    }
-    footer a:hover{
-        text-decoration: underline;
-    }
-    .hero{
+}
+
+@media screen and (min-width: 620px) {
+    .main-header nav {
+        border-radius: 25px;
         text-align: center;
     }
-    .hero img{
+    .main-header nav a {
+        display: inline-block;
+    }
+    .sponsors>.sponsor-ads>img {
+        width: 50%;
+    }
+    footer {
+        background-color: #a00;
+        border-radius: 15px;
+        text-align: right;
+    }
+    footer h3 {
+        float: left;
+        color: white;
+        padding: 0 5px;
+    }
+    footer nav a {
+        display: inline-block;
+        color: white;
+        font-size: 20px;
+    }
+    footer a:hover {
+        text-decoration: underline;
+    }
+    .hero {
+        text-align: center;
+    }
+    .hero img {
         max-width: 620px;
-    }  
-
-}
-@media screen and (min-width: 960px){
-.main-container{
-    width: 960px;
-
-}
-section>.article-list{
-    width:66.66%;
-    float:left;
+    }
 }
 
-section>aside {
-    width: 33.333333%;
-    float: right
-}
-
-.sponsors>.sponsor-ads>img {
-    width: 50%;
-    float: left;
-    padding: 10px
-}
-.article-list article img{
-    width:66.66%;
-}
-
+@media screen and (min-width: 960px) {
+    .main-container {
+        width: 960px;
+    }
+    section>.article-list {
+        width: 66.66%;
+        float: left;
+    }
+    section>aside {
+        width: 33.333333%;
+        float: right
+    }
+    .sponsors>.sponsor-ads>img {
+        width: 50%;
+        float: left;
+        padding: 10px
+    }
+    .article-list article img {
+        width: 66.66%;
+    }
 }
