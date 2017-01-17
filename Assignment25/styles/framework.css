@@ -1,0 +1,59 @@
+/* 
+
+rows - .row
+col - .col
+tablet - .md-33
+         .md-66
+
+         .md-50
+
+         .md-25
+         .md-75
+
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    display: block;
+    clear: both;
+}
+
+.cell {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+@media screen and(min-width:768px) {
+    .row {
+        display: inline-block;
+        clear: both;
+        overflow: hidden;
+    }
+    .col {
+        float: left;
+    }
+    .md-33 {
+        width: 33.333%;
+    }
+    .md-66 {
+        width: 66.667%;
+    }
+    .md-50 {
+        width: 50%;
+    }
+    .md-25 {
+        width: 25%;
+    }
+    .md-75 {
+        width: 75%;
+    }
+}
