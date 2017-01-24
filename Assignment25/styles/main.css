@@ -1,0 +1,132 @@
+header {
+    background-color: #38349b;
+    position: fixed;
+    width: 100%;
+    margin: 1px auto;
+    clear: both;
+}
+
+.logo {
+    margin-top: 4px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    max-width: 160px;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #333;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+nav>ul {
+    float: right;
+}
+
+.dropdown-content {
+    display: inline;
+    position: absolute;
+    min-width: 160px;
+    background-color: #38349b;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    background-color: #38349b;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.article-list a {
+    text-decoration: none;
+}
+
+.hero img {
+    width: 600px;
+}
+
+article img {
+    width: 50px;
+}
+
+section {
+    clear: both;
+    margin: 10px auto
+}
+
+section .section-header {
+    color: #a00;
+    border: 1px solid #a00;
+    border-left: none;
+    border-right: none;
+    text-align: center
+}
+
+section .article-list {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.article-list article {
+    border-bottom: 1px solid #a00;
+}
+
+.article-list article img {
+    display: block;
+    width: 50%;
+    padding: 10px
+}
+
+.sponsors {
+    margin-top: 10px;
+}
+
+footer {
+    clear: both;
+    padding: 10px 0;
+    background-color: #38349b;
+}
+
+footer>h3 {
+    float: right;
+    margin: 10px;
+    color: white;
+}
+
+footer>nav>a {
+    display: inline-block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
