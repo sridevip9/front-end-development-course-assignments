@@ -1,0 +1,24 @@
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    display: none;
+}
+
+.modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 10;
+    display: none;
+    border: 1px solid black;
+    padding: 10px;
+    background: white;
+}
